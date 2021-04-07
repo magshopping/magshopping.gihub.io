@@ -33,7 +33,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: rgb(87, 76, 76);
+    color: rgb(153, 143, 143);
 }
 p{
     color: rgb(39, 29, 29);
@@ -42,10 +42,9 @@ p{
     color: black;
     text-align: center;
     padding-top: 30px;
+    font-size: 15px;
 }
-.para-bienvenu{
-    padding-left: 60px;
-}
+
 
 .container{
     max-width: 1300px;
@@ -57,7 +56,9 @@ p{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 0px;
 
 }
 .col-2{
@@ -71,13 +72,17 @@ p{
     background-color: #fff;
 }
 .col-2 h1{
-    font-size: 30px;
+    font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
     color: bisque;
+    margin-top: 90px;
 }
-.col-2 p{
-    font-size: 12px;
+.text-acc p{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
 }
 .btn{
     display: inline-block;
@@ -88,6 +93,8 @@ p{
     border-radius: 30px;
     transition: 0.5s;
     text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
 }
 
 .btn:hover{
@@ -95,12 +102,13 @@ p{
 }
 .header{
     background: radial-gradient(#f1c3f1,#ffd6ff);
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/imagems1.jpeg);
     background-position: center;
     background-size: cover;
     position:relative;
+
 
 }
 .header .row{
