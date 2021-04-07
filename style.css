@@ -122,6 +122,9 @@ p{
     min-width: 250px;
     margin-bottom: 30px;
 }
+.col-3 p{
+    font-size: 12px;
+}
 .col-3 img{
     width: 100%;
 }
