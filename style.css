@@ -37,6 +37,7 @@ a{
 }
 p{
     color: rgb(39, 29, 29);
+    font-size: 12px;
 }
 .para-description{
     color: black;
