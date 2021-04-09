@@ -42,12 +42,10 @@ p{
     font-size: 12px;
 }
 
-}
-.para-description{
-    color: black;
+.promo{
     text-align: center;
-    padding-top: 30px;
-    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 
@@ -151,9 +149,10 @@ p{
 .col-4 img{
     width: 100%;
 }
+
 .titre{
     text-align: center;
-    margin: 0 auto 80px;
+    margin: 0 auto 30px;
     position: relative;
     line-height: 60px;
     color: #555;
@@ -198,9 +197,14 @@ h4{
 }
 small{
     color: rgb(139, 136, 136);
+    font-size: 17px;
+    text-align: center;
+
 }
 .offer p{
     color: #fff;
+    font-size: 15px;
+    
 }
 
 /*------------------------------testimonial-----------------*/
